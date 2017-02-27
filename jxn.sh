@@ -64,7 +64,9 @@ function runTemplate {
   cd .. 
 
   # COMPLETE
+  ls *
   echo -n -e "${GREEN}Finished!${NC}\n"
+  cd ..
   exit
 }
 
@@ -84,5 +86,4 @@ while [ !$COND ]; do
   elif [ "$CONDITION" == "cancel" ]; then 
     exit
   fi
-
 done
