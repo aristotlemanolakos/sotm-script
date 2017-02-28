@@ -14,3 +14,6 @@ Update `.bash_profile` with `jxn` alias.
 Add the following line to the file `alias jxn='bash ~/scripts/jxn/jxn.sh'`
 
 Save the new profile and exit editor. Restart terminal and test out alias by typing `jxn`.
+
+##Future
+Look into AppleScript or other Adobe scripting libraries for easier use.
